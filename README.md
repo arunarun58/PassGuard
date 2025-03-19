@@ -29,12 +29,17 @@ A secure, user-friendly password manager application built with Next.js, Clerk a
 
    ```bash
    git clone https://github.com/arunarun58/PassGuard.git
-   cd pdmanager
    ```
 
 ## Getting Started
 
-First, run the development server:
+First, Install the dependencies:
+```bash
+npm install
+```
+
+
+Then run the development server:
 
 ```bash
 npm run dev
