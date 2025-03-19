@@ -8,7 +8,6 @@ A secure, user-friendly password manager application built with Next.js, Clerk a
 - **Dark/Light Themes**: Toggle between dark and light themes for a customized experience.
 - **Password Management**: Add, edit, delete, and store passwords in a secure database.
 - **Password Strength**: Password strength indicator to guide users in creating strong passwords.
-- **Animations**: Smooth animations for UI transitions and actions, powered by Framer Motion.
 - **Clipboard Integration**: Copy passwords to the clipboard easily with the click of a button.
 - **Responsive Design**: Fully responsive design using Tailwind CSS.
 
