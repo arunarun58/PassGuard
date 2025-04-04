@@ -26,6 +26,7 @@ import {
   DialogFooter,
 } from "@/components/ui/dialog";
 import { useUser } from "@clerk/nextjs";
+import { toast } from "sonner";
 
 export default function DashboardPage() {
   const { theme, setTheme } = useTheme();
@@ -175,10 +176,10 @@ export default function DashboardPage() {
     navigator.clipboard
       .writeText(password)
       .then(() => {
-        alert("Password copied to clipboard!");
+        toast("Password copied to clipboard!");
       })
       .catch((err) => {
-        alert("Failed to copy password: " + err);
+        toast("Failed to copy password: " + err);
       });
   };
 

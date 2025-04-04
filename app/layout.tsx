@@ -11,6 +11,7 @@ import {
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import DashboardPage from "@/pages/dashboard/page";
+import { Toaster } from "@/components/ui/sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -77,6 +78,7 @@ export default function RootLayout({
               <DashboardPage />
             </SignedIn>
           </ThemeProvider>
+          <Toaster />
         </body>
       </html>
     </ClerkProvider>
