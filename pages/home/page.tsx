@@ -2,10 +2,7 @@
 import React from "react";
 import { SignInButton } from "@clerk/nextjs";
 import { type Metadata } from "next";
-export const metadata: Metadata = {
-  title: "PassGuard",
-  description: "Dashboard",
-};
+
 
 const HomePage = () => {
   return (
